@@ -13,7 +13,13 @@
             <parameters/>
         </event-listener>
     </event-listeners>
-    <task-event-listeners/>
+    <task-event-listeners>
+        <task-event-listener>
+            <resolver>mvel</resolver>
+            <identifier>new com.bpm.event.CustomTaskListener()</identifier>
+            <parameters/>
+        </task-event-listener>
+    </task-event-listeners>
     <globals/>
     <work-item-handlers/>
     <environment-entries/>
