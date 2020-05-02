@@ -45,6 +45,12 @@
       <version>1.4.10</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.bpm</groupId>
+      <artifactId>jbpm-event-listeners</artifactId>
+      <version>3.0</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
